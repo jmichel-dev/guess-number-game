@@ -1,9 +1,11 @@
 import { View, Text, StyleSheet } from "react-native";
 
+import Title from "../components/Title";
+
 const GameScreen = () => {
   return (
     <View style={styles.screen}>
-      <Text>I am a game screen</Text>
+      <Title style={styles.title}>I am a game screen</Title>
     </View>
   );
 };
